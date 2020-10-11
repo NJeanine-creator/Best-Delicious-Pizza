@@ -21,7 +21,6 @@ Step 1:Make sure you are connected to the internet.
 Step 2:Get the link and open it in your browser.
 Step 3:Downloads it into your machine.
 Step 4:Now you can access it and edit it.
-## How to Use it
 
 ## Known Bugs
 There no protection of threat and scams to this file. So make sure that it can not come with threats from the internet and harm you computer. Check that you are secured before downloads it.
