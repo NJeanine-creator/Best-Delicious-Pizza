@@ -31,15 +31,15 @@ $(document).ready(function(){
       price =0;
     break;
     case "large":
-       price = 1200;
+       price = 1500;
        console.log(price);
      break;
      case "medium":
-       price = 850;
+       price = 1200;
        console.log("The price is "+price);
      break;
      case "small":
-       price = 600;
+       price = 800;
        console.log(price);
      default:
        console.log("error");
@@ -52,10 +52,10 @@ $(document).ready(function(){
         crust_price = 200;
       break;
       case "Stuffed":
-        crust_price = 250;
+        crust_price = 150;
       break;
       case "Gluten-free":
-        crust_price = 180;
+        crust_price = 200;
       break;
       default:
         console.log("No price");
@@ -102,15 +102,15 @@ $(document).ready(function(){
           price =0;
         break;
         case "large":
-           price = 1200;
+           price = 1500;
            console.log(price);
          break;
          case "medium":
-           price = 850;
+           price = 1000;
            console.log("The price is "+price);
          break;
          case "small":
-           price = 600;
+           price = 800;
            console.log(price);
          default:
            console.log("error");
@@ -126,7 +126,7 @@ $(document).ready(function(){
             crust_price = 150;
           break;
           case "Gluten-free":
-            crust_price = 180;
+            crust_price = 200;
           break;
           default:
             console.log("No price");
@@ -153,8 +153,8 @@ $(document).ready(function(){
       $("button.addPizza").hide();
       $("button.deliver").slideDown(1000);
       $("#addedprice").slideDown(1000);
-      console.log("Your total bills is sh. "+checkoutTotal);
-      $("#pizzatotal").append("Your bill is sh. "+checkoutTotal);
+      console.log("Your total bills is frw. "+checkoutTotal);
+      $("#pizzatotal").append("Your bill is frw. "+checkoutTotal);
     });
 
     // home delivery button
@@ -165,7 +165,7 @@ $(document).ready(function(){
       $("#addedprice").hide();
       $("button.deliver").hide();
       $("#pizzatotal").hide();
-      let deliceryamount= checkoutTotal+150;
+      let deliceryamount= checkoutTotal+500;
       console.log("You will pay sh. "+deliceryamount+" on delivery");
       $("#totalbill").append("Your bill plus delivery fee is: "+deliceryamount);
     });
@@ -177,7 +177,7 @@ $(document).ready(function(){
       $("#pizzatotal").hide();
       $(".delivery").hide();
       $("button#final-order").hide();
-      let deliceryamount= checkoutTotal+150;
+      let deliceryamount= checkoutTotal+500;
       console.log("Final Bill is: "+deliceryamount);
       let person = $("input#name").val();
       let phone = $("input#phone").val();
